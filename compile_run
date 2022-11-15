@@ -1,0 +1,9 @@
+
+
+TO compile 
+
+  rustc "filename"
+  
+TO run 
+
+  ./"filename without extension"
