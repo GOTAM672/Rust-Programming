@@ -1,5 +1,13 @@
+// Functions 
+
+fn another_function() {
+    println!("Another function.");
+}
+
 
 fn main() {
+
+   another_function();
 
 
     println!("Hello, world!");
@@ -140,7 +148,7 @@ fn main() {
     */
     
     let a = [1, 2, 3, 4, 5];
-    println!("sixth index {}", a[6]);
+    println!("sixth index {}", a[4]);
 
      
 }
