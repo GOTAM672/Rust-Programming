@@ -1,13 +1,21 @@
 // Functions 
 
+/*
 fn another_function() {
     println!("Another function.");
 }
+*/
 
+/* parameter */
+
+fn another_function(x: i32) {
+    println!("The value of x is: {x}");
+}
 
 fn main() {
 
-   another_function();
+   //another_function();
+   another_function(44);
 
 
     println!("Hello, world!");
