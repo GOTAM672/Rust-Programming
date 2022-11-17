@@ -12,10 +12,15 @@ fn another_function(x: i32) {
     println!("The value of x is: {x}");
 }
 
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {value}{unit_label}");
+}
+
 fn main() {
 
    //another_function();
    another_function(44);
+   print_labeled_measurement(5, 'h');
 
 
     println!("Hello, world!");
@@ -157,6 +162,12 @@ fn main() {
     
     let a = [1, 2, 3, 4, 5];
     println!("sixth index {}", a[4]);
+    
+     
+    /* Statements and Expressions */
+    
+    let x = (let y = 6);  // this is wrong because let y = 6 statement does not return a value, 
+    
 
      
 }
