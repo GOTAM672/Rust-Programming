@@ -30,6 +30,11 @@ fn five() -> i32 {
     5
 }
 
+fn plus_one(x: i32) -> i32 {
+    x + 1
+    // if we place a semicolon at the end of the line containing x + 1, changing it from an expression to a statement, we’ll get an error.
+}
+
 
 fn main() {
 
@@ -208,6 +213,39 @@ Keep this in mind as you explore function return values and expressions next
     
     */
     
+    
+    
+    
+    
+    
+    /* control flow in Rust Programming */
+    
+    // 1. if Expressions
+    let number = 3;
+
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+    
+    /*
+      let number = 3;
+
+      if number {
+        println!("number was three");
+      }
+      The if condition evaluates to a value of 3 this time, and Rust throws an error:
+    */
+    if number % 4 == 0 {
+        println!("number is divisible by 4");
+    } else if number % 3 == 0 {
+        println!("number is divisible by 3");
+    } else if number % 2 == 0 {
+        println!("number is divisible by 2");
+    } else {
+        println!("number is not divisible by 4, 3, or 2");
+    }
     
 
      
