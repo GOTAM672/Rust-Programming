@@ -26,12 +26,17 @@ You can return early from a function by using the return keyword and specifying 
 
 */
 
+fn five() -> i32 {
+    5
+}
+
 
 fn main() {
 
    //another_function();
    another_function(44);
    print_labeled_measurement(5, 'h');
+   let x = five();
 
 
     println!("Hello, world!");
