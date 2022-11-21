@@ -247,6 +247,23 @@ Keep this in mind as you explore function return values and expressions next
         println!("number is not divisible by 4, 3, or 2");
     }
     
+    // Using if in a let Statement
+    let condition = true;
+    let num = if condition { 5 } else { 6 };
+
+    println!("The value of number is: {num}");
+    
+    /*
+    This means the values that have the potential to be results from each arm of the if must be the same type; in Listing 3-2, 
+    the results of both the if arm and the else arm were i32 integers. If the types are mismatched, as in the following example, we’ll get an error:
+    */
+    
+    let condition = true;
+
+    let number = if condition { 5 } else { "six" }; // this statement will give error
+
+    println!("The value of number is: {number}");
+}
 
      
 }
