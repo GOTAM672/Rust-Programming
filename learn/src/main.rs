@@ -221,6 +221,7 @@ Keep this in mind as you explore function return values and expressions next
     /* control flow in Rust Programming */
     
     // 1. if Expressions
+    
     let number = 3;
 
     if number < 5 {
@@ -263,7 +264,35 @@ Keep this in mind as you explore function return values and expressions next
     let number = if condition { 5 } else { "six" }; // this statement will give error
 
     println!("The value of number is: {number}");
+    
+    
+    // 2. Repetition with Loops
+    
+    /*
+    
+    Rust has three kinds of loops: loop, while, and for.
+    */
+    
+    loop {
+        println!("again!");
+    }
+    
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+
+    println!("The result is {result}");
+    
+    
 }
 
      
-}
+     
+     
+
