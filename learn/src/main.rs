@@ -16,6 +16,17 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
     println!("The measurement is: {value}{unit_label}");
 }
 
+/* Functions with Return Values */
+
+/*
+
+Functions can return values to the code that calls them. We don’t name return values, but we must declare their type after an arrow (->). 
+In Rust, the return value of the function is synonymous with the value of the final expression in the block of the body of a function. 
+You can return early from a function by using the return keyword and specifying a value, but most functions return the last expression implicitly.
+
+*/
+
+
 fn main() {
 
    //another_function();
@@ -191,6 +202,8 @@ If you add a semicolon to the end of an expression, you turn it into a statement
 Keep this in mind as you explore function return values and expressions next
     
     */
+    
+    
 
      
 }
