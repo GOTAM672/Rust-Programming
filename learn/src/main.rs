@@ -324,6 +324,15 @@ Keep this in mind as you explore function return values and expressions next
     }
     
     
+    // for loop 
+    
+    
+    for element in a {
+        println!("the value is: {element}");
+    }
+    
+    
+    
     
     
 }
