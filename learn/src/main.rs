@@ -312,6 +312,20 @@ Keep this in mind as you explore function return values and expressions next
     println!("End count = {count}");
     
     
+    // while loop 
+    
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", a[index]);
+
+        index += 1;
+    }
+    
+    
+    
+    
 }
 
      
